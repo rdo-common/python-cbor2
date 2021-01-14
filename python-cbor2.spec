@@ -19,6 +19,7 @@ Representation (CBOR) (RFC 7049) serialization format.
 %package -n     python3-%{pypi_name}
 Summary:        %{summary}
 
+BuildRequires:  openstack-macros
 BuildRequires:  python3-devel
 BuildRequires:  python3dist(pytest)
 BuildRequires:  python3dist(pytest-cov)
